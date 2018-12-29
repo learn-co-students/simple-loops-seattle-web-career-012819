@@ -1,6 +1,6 @@
 # REMEMBER: print your output to the terminal using 'puts'
 
-def loop_iterator(number_of_times)
+def loop_iterator(number_of_times = 7)
   phrase = "Welcome to Flatiron School's Web Development Course!"
   for number_of_times do
     puts phrase
