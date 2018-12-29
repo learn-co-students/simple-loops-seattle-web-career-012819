@@ -1,13 +1,10 @@
 # REMEMBER: print your output to the terminal using 'puts'
 
-def loop_iterator(number_of_times = 7)
+def loop_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  for number_of_times do
-    puts phrase
 end
 
 def times_iterator(number_of_times)
-  number_of_times.times do |puts phrase|
   # code your solution here using the "times" keyword
   phrase = "Welcome to Flatiron School's Web Development Course!"
   
