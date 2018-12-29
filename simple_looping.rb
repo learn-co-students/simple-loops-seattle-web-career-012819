@@ -30,7 +30,7 @@ def until_iterator(number_of_times)
   times = 0 
   until times > number_of_times do
     puts phrase
-    until += 1  
+    times += 1  
   end
 end
 
