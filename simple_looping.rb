@@ -6,7 +6,7 @@ def loop_iterator(number_of_times)
   loop number_of_times do 
     puts phrase
     times += 1
-    break if times = number_of_times
+    break if times == number_of_times
   end
 end
 
